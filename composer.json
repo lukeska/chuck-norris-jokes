@@ -1,0 +1,24 @@
+{
+    "name": "lukeska/chuck-norris-jokes",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lukeska",
+            "email": "luca.ubiali@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+    	"psr-4": {
+    		"Lukeska\\ChuckNorrisJokes\\": "src/"
+    	}
+    },
+    "autoload-dev": {
+    	"psr-4": {
+    		"Lukeska\\ChuckNorrisJokes\\Tests\\": "tests"
+    	}
+    },
+    "require-dev": {
+        "phpunit/phpunit": "8"
+    }
+}
